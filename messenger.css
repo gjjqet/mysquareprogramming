@@ -1,0 +1,229 @@
+ .imagecontainer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    border:1px solid lightgrey;
+    position:sticky;
+    background-color: white;
+    opacity: 0.9;
+    top:0;
+} 
+
+.image{
+    width: 60%;
+    
+}
+
+.anchor{
+    margin-right: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.anchor:hover{
+    border-bottom:3px solid blue
+}
+
+.bar{
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+.barcontainer{
+    cursor: pointer;
+    display: none;
+}
+
+.bar1,.bar2,.bar3{
+    transition: all 0.5s ease-in-out;
+}
+
+.hidebar2{
+    opacity: 0;;
+}
+
+.bar1change{
+    transform:rotate(45deg) translate(3px,-2px);
+}
+
+.bar3change{
+    transform:rotate(-45deg) translate(9px,-3px);
+}
+
+
+
+.firstdiv{
+    width: 60%;
+  
+}
+
+.secondiv{
+    width: 39%;
+   text-align: center;
+   margin-top: 20px;
+   overflow: hidden;
+}
+
+.maincontainer{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.header{
+  
+   font-size: 50px;
+   color:red
+}
+
+.firstchild{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+body{
+    background-color:#FFFFFF;
+}
+
+.make{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.input{
+    width: 250px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    
+    padding: 10px 10px;
+    background-color: rgb(216, 200, 200);
+    display: block;
+    border:none;
+}
+
+.sign{
+    width: 90px;
+    background-color: blue;
+    border-radius: 17px;
+    padding: 8px;
+    color:white;
+    display: block;
+    border:none
+}
+
+.spancontainer{
+    padding:20px 0;
+}
+
+.keep{
+    margin-left: 5px;
+}
+
+.apple{
+    width: 30%;
+    
+}
+
+.apple2{
+    height: 50px;
+}
+
+.finalimage{
+    width: 95%;
+}
+
+.footer{
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.finalspan{
+    font-size: 25px;
+}
+
+
+
+
+
+
+.inner{
+    width: 95%;
+    margin:0 auto
+}
+
+.extracontainer{
+    display: none;
+}
+
+
+
+
+@media(max-width:767px){
+    .firstdiv{
+        width: 100%
+    }
+
+    .secondiv{
+        width: 100%;
+    }
+
+    .inner{
+        width: 80%;
+        margin:0 auto;
+       
+    }
+
+    .barcontainer{
+        display: block;
+    }
+
+    .anchorcontainer{
+        display: none;
+    }
+
+
+
+    .extracontainer{
+        display: none;
+    }
+
+    .per{
+        text-decoration: none;
+        color:inherit;
+        font-size: 27px;
+        color: #7d7d7d;;
+       
+    }
+
+
+    
+    .per:hover{
+        border-bottom: 3px blue solid;
+    }
+    
+    .percontainer{
+        padding: 30px 20px;
+        background-color:#fafafa;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+    
+
+
+
+
+
+

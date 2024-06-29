@@ -1,0 +1,28 @@
+.parent{
+    width: 60%;
+    background-color: lightcoral;
+    text-align: center;
+    margin:auto;
+    margin-top: 300px;
+    position:relative
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin:10px;
+    display: inline-block;
+}
+
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: blue;
+    position: absolute;
+    top:20px
+    
+}
+.box3{
+    background-color: yellow;
+}

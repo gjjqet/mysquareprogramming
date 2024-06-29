@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.input{
+    width: 400px;
+}
+
+body{
+   background-color:  rgba(14, 20, 24, 0.64)
+}
+
+.shoppinglist{
+    margin-top: 20px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.product{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.fa-solid{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.trashcontainer{
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[class="form-control input"]{
+    background-color: green;
+}
+

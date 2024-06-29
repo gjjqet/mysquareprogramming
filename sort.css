@@ -1,0 +1,9 @@
+.container{display: flex;flex-direction: column;align-items: end;margin-top: 50px;height: 130px;}
+body{background-color: black;}
+.buttoncontainer{width: 130px;}
+.button{width: 80px;}
+.sort{padding: 10px;width: 130px;}
+.sortcontainer{border-radius: 5px;background-color: white;display: none;cursor: pointer;}
+.image{width: 10%;height: 200px;}
+.secondcontainer{text-align: center;color:white;margin-bottom: 15px;}
+.title{padding: 10px;}

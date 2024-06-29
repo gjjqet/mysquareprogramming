@@ -1,0 +1,11 @@
+.container{display: flex;flex-direction: column;align-items: center;justify-content: center;height: 100vh;}
+body{background-color: black;}
+.titlediv{color:violet;font-size: 25px;margin-bottom: 25px;}
+.songcontainer{cursor: pointer;user-select: none;}
+.progressbar{width: 500px;height: 5px;background-color: lightgrey;}
+.currentprogress{height: 100%;background-color: red;width: 0px;}
+.currentandtotaltime{margin: 10px 0;}
+.buttoncontainer{margin-top: 10px;cursor: pointer;user-select: none;}
+.button{color:white;margin-left: 16px;font-size: 20px;}
+.time{font-size: 25px;color:white;}
+.pause{display: none;}

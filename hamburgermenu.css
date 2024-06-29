@@ -1,0 +1,78 @@
+.box{
+    width: 50px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: red;
+}
+
+body{
+    background-color: black;
+}
+
+.menucontainer{
+    position: absolute;
+    right: 0;
+   cursor: pointer;
+   user-select: none;
+   z-index: 1;
+}
+
+.container{
+    margin-top: 50px;
+    background-color: red;
+    position: relative;
+    
+}
+
+.box2,.box1,.box3,.extra{
+    transition: all 1s ease-in-out;
+}
+
+.removebox2{
+    opacity: 0;
+}
+
+.changebox1{
+    transform: rotate(45deg) translate(1px,9px);
+}
+
+.changebox3{
+    transform: rotate(-45deg) translate(2px,-8px);
+}
+
+.extra{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    top:0
+}
+
+li{
+    color:green;
+    font-size: 25px;
+    margin-bottom: 17px ;
+    transition: transform 1s ease;
+}
+
+li:hover{
+    opacity: 0.8;
+    color:red;
+    border-bottom: 3px solid violet;
+}
+
+.extracontainer{
+    opacity: 1;
+}
+
+.removelitag{
+    transform: translateY(-10px);
+}
+

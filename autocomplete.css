@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.input{
+    width: 500px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.productcontainer{
+    width: 500px;
+    background-color: white;
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border:1px solid lightgray
+}
+
+.title{
+    width: 80%;
+}
+
+.image{
+    height: 80%;
+}
+
+.extra{
+    margin-top: 50px;
+    background-color: white;
+    width: 500px;
+    
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border:1px solid lightgray
+}
+
+.secondtitle{
+    width: 80%;
+}
+
+.secondimage{
+    height: 80%;
+}
